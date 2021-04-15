@@ -6,5 +6,5 @@ import (
 )
 
 func InitRand() {
-	s := rand.Seed(time.Now().UnixNano())
+	rand.Seed(time.Now().UnixNano())
 }
